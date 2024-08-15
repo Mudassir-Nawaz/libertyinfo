@@ -653,6 +653,9 @@ video {
 .overflow-hidden {
   overflow: hidden;
 }
+.scroll-smooth {
+  scroll-behavior: smooth;
+}
 .rounded-full {
   border-radius: 9999px;
 }
@@ -982,11 +985,6 @@ video {
   .md\:px-20 {
     padding-left: 5rem;
     padding-right: 5rem;
-  }
-
-  .md\:px-7 {
-    padding-left: 1.75rem;
-    padding-right: 1.75rem;
   }
 
   .md\:py-48 {
