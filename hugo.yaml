@@ -1,0 +1,31 @@
+baseURL: 'https://example.org/'
+languageCode: 'en-us'
+title: 'My New Hugo Site'
+
+menus:
+  main:
+    - name: "Home"
+      url: /
+      weight: 10
+    - name: "Services"
+      url: /
+      weight: 20
+    - name: "About Us"
+      url: /
+      weight: 30
+    - name: "Contact"
+      url: /
+      weight: 40
+    - name: "Blog"
+      url: /
+      weight: 50
+
+
+params:
+  logo: "/images/logo.png"
+  copyright: "Copyright © 2022, All Rights Reserved"
+  social_link: 
+    facebook: /
+    twitter: /
+    instagram: /
+    github: /
