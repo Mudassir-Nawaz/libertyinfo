@@ -10,4 +10,4 @@
     <link rel="stylesheet" href="{{ .RelPermalink }}">
 {{ end }}
 
-<title>Document</title>
+<title>{{ if not .IsHome }}{{ .Title }} -{{ end }}{{ .Site.Title }}</title>
