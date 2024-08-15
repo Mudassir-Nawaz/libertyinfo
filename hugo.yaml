@@ -8,16 +8,16 @@ menus:
       url: /
       weight: 10
     - name: "Services"
-      url: /
+      url: "/#services"
       weight: 20
     - name: "About Us"
-      url: /
+      url: "/#about"
       weight: 30
     - name: "Contact"
-      url: /
+      url: "/#contact"
       weight: 40
     - name: "Blog"
-      url: /
+      url: "https://medium.com/@Libertyinfosec"
       weight: 50
 
 
