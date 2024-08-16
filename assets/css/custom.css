@@ -65,19 +65,21 @@
         left: 0;
         width: 100%;
         z-index: 1000;
-        height: 120px;
+        height: 130px;
         background-color: #86cf7d30 !important;
         -webkit-transition: height 0.3s;
         -moz-transition: height 0.3s;
         transition: height 0.3s;
         text-align: center;
         line-height: 35px;
+        padding-top: 8px;
     }
 
     .shrink {
         height: 80px;
         line-height: 30px;
         background-color: #fff !important;
+        padding-top: 0;
     }
 
     .header * {
@@ -109,11 +111,21 @@
     }
 
     .header #navbar {
-        width: 60%;
+        width: 80%;
     }
 
     .shrink #navbar {
-        width: 50%;
+        width: 75%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .header #navbar {
+        width: 65%;
+    }
+
+    .shrink #navbar {
+        width: 55%;
     }
 }
 

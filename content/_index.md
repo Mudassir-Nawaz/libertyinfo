@@ -45,12 +45,12 @@ about_section:
           pretitle: "Number"
           title: "(202) 505-3792"
           button:
-            link: "tel:2025053792"
-            text: Call Now
+            text: "Call Now"
+            link: tel:2025053792
         - icon: "/images/email.png"
           pretitle: "Email Contact"
           title: "hello@libertyinfosec.com"
           button: 
+            text: "Mail Now"
             link: "mailto:hello@libertyinfosec.com"
-            text: Mail Now
 ---
