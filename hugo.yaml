@@ -23,6 +23,7 @@ menus:
 
 params:
   logo: "/images/bg-logo.png"
+  footer_logo: "/images/logo-with-text.png"
   copyright: "Copyright © 2022, All Rights Reserved"
   social_link: 
     facebook: /
